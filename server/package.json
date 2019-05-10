@@ -1,0 +1,13 @@
+{
+  "name": "server-stub",
+  "version": "1.0.0",
+  "description": "it is not a part of pure-react-app part, it is a stub the app can work with",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "lowdb": "^1.0.0"
+  }
+}
