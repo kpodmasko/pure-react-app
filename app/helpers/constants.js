@@ -27,7 +27,6 @@ const PAGES_CONFIG = [{path: '#/', component: Home, menu: {show: true, title: '�
     {path: '#/devices', component: Devices, menu: {show: true, title: 'УСТРОЙСТВА'}},
     {path: '#/macroses', component: Macroses, menu: {show: true, title: 'МАКРОСЫ'}},
     {path: '#/room', component: Room, title: 'КОМНАТА'},
-    {path: '#/rooms', component: Rooms, menu: {show: true, title: 'КОМНАТЫ'}},
     {component: NotFound}];
 
 const YOU_ARE_NOT_LOGGED_IN = 'Вы не вошли в аккаунт';

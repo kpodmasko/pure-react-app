@@ -1,4 +1,4 @@
-class Rooms extends React.Component {
+class Home extends React.Component {
     state = {
         rooms: [],
         errorMessage: null
@@ -35,27 +35,12 @@ class Rooms extends React.Component {
 
     render() {
         const {errorMessage, rooms} = this.state;
-        const {switchPage} = this.props;
+        const {switchPage, user} = this.props;
 
         return <Page {...this.props} errorMessage={errorMessage}> 
-            <p>У вас {rooms.length} комнат</p>
-            {!rooms.length ? '' : <React.Fragment>
-                <p>Вы можете к ним перейти:</p>
-
-                <List keyPrefix={'Rooms'}>
-                    {rooms.map((room, i) => <Link 
-                        onClick={() => {
-                            switchPage({
-                                url: `${CLIENT_BASE}#/room/${room.id}`,
-                                hash: `#/room`
-                            });
-                        }}
-                        href={`#/room/${room.id}`} 
-                        key={`RoomLink${room.id}${i}`}>
-                        {room.name}
-                    </Link>)}
-                </List>
-            </React.Fragment>}
+            <RoomsList switchPage={switchPage}>
+                {rooms}
+            </RoomsList>
         </Page>
     }
 }

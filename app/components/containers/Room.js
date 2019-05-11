@@ -42,7 +42,7 @@ class Room extends React.Component {
         return <Page {...this.props} errorMessage={errorMessage}> 
             {room && <React.Fragment>
                 <h1>{room.name}</h1>
-                <img src={`${SERVER_BASE}/images/${room.photo}`} width="50%"/>
+                <h1>{room.id}</h1>
             </React.Fragment>}
         </Page>
     }
