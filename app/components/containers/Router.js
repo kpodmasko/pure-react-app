@@ -1,7 +1,7 @@
 
 class Router extends React.Component {
     state = {
-        activePageHash: window.location.hash
+        activePageHash: window.location.hash.split('/').slice(0,2).join('/')
     };
 
     getActivePage = (pages, activePageHash) => pages.find((page) => page.props.path === activePageHash) || pages[pages.length - 1];
@@ -9,11 +9,11 @@ class Router extends React.Component {
     switchPage = ({state = {}, title = DEFAULT_PAGE_TITLE, url = '', hash = '',}) => {
         const {pushState: parentState} = this.props;
 
+        history.pushState({...this.state, ...parentState, ...state}, title, url);
+
         this.setState({
             ...this.state,
             activePageHash: hash
-        }, routerState => {
-            history.pushState({...routerState, ...parentState, ...state}, title, url);
         });
     }
 
