@@ -22,7 +22,7 @@ app.post('/login', (request, response) => {
         .value();
 
     if (user) {
-        response.json({userToken: user.token});
+        response.json({...user});
     } else {
         response.send('Unauthorized', 401);
     }

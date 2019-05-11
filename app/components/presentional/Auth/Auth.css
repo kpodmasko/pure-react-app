@@ -10,3 +10,19 @@
     text-decoration: none;
     color: black;
 }
+
+.Auth__log_out {
+    padding: 5px;
+    background-color: red;
+    color:white;
+    margin: 0 10px;
+    text-align: center;
+}
+
+
+.Auth_login_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;   
+}
