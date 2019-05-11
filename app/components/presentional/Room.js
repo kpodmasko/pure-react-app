@@ -1,7 +1,7 @@
 class Room extends React.Component {
     render() {
-        return <div>
+        return <Page {...this.props}>
             Room
-        </div>
+        </Page>
     }
 }

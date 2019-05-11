@@ -1,7 +1,7 @@
 class Devices extends React.Component {
     render() {
-        return <div>
+        return <Page {...this.props}>
             Devices
-        </div>
+        </Page>
     }
 }

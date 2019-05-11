@@ -1,0 +1,12 @@
+.Auth__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;   
+    background-color: beige;
+}
+
+.Auth__link {
+    text-decoration: none;
+    color: black;
+}
