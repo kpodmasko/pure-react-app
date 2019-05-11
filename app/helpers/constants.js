@@ -18,9 +18,9 @@ const DEFAULT_CLASSNAMES_STUB_FOR_LIST_TEMPLATE = {
     listItem: []
 }
 
-const CLIENT_BASE = 'http://localhost:8888/pure-react-app/';
+const CLIENT_BASE = 'http://127.0.0.1:8888/pure-react-app/';
 
-const SERVER_BASE = 'http://localhost:3000';
+const SERVER_BASE = 'http://127.0.0.1:3000';
 
 const PAGES_CONFIG = [{path: '#/', component: Home, menu: {show: true, title: 'ГЛАВНАЯ'}},
     {path: '#/login', component: Login, customPropsNames: ['authorizeUser']},

@@ -6,6 +6,7 @@ const express = require("express");
 const http = require("http");
 const low = require("lowdb");
 const FileSync = require("lowdb/adapters/FileSync");
+const cors = require('cors')
 
 const adapter = new FileSync("./db.json");
 const db = low(adapter);
@@ -15,6 +16,7 @@ const app = express();
 const server = http.createServer(app);
 
 app.use(express.json());
+app.use(cors());
 
 app.post('/login', (request, response) => {
     const user = db.get('user')
