@@ -1,33 +1,30 @@
-class Room extends React.Component {
+class HomePage extends React.Component {
     state = {
-        room: null,
-        errorMessage: this.props.user ? 'Комната отсутствует' : YOU_ARE_NOT_LOGGED_IN,
-        roomId: window.location.hash.split('/').slice(2).join('')
+        rooms: [],
+        errorMessage: null
     }
     
     componentDidMount() {
         const self = this;
-        const {roomId} = this.state;
         const {user} = this.props;
 
         if (!user) {
             return;
         }
-
+        
         makeRequestAndGetPromise({
             type: 'get',
-            url: `${SERVER_BASE}/room/${roomId}`,
+            url: `${SERVER_BASE}/rooms`,
             token: user.token
         }).then((res) => {
             const parsedResponse = JSON.parse(res);
 
-            if (parsedResponse.room) {
+            if (parsedResponse.rooms) {
                 self.setState({
                     ...self.state,
-                    room: parsedResponse.room,
-                    errorMessage: null
+                    rooms: parsedResponse.rooms
                 })
-            } 
+            }
         }).catch((error) => {
             self.setState({
                 ...self.state,
@@ -37,13 +34,13 @@ class Room extends React.Component {
     }
 
     render() {
-        const {errorMessage, room} = this.state;
+        const {errorMessage, rooms} = this.state;
+        const {switchPage, user} = this.props;
 
         return <Page {...this.props} errorMessage={errorMessage}> 
-            {room && <React.Fragment>
-                <h1>{room.name}</h1>
-                <h1>{room.id}</h1>
-            </React.Fragment>}
+            <RoomsList switchPage={switchPage}>
+                {rooms}
+            </RoomsList>
         </Page>
     }
 }

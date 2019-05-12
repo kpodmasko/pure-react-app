@@ -1,4 +1,4 @@
-class Devices extends React.Component {
+class HouseControllersPage extends React.Component {
     render() {
         return <Page {...this.props}>
             Devices
