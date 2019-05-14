@@ -1,0 +1,2119 @@
+{
+    "action": [
+      {
+        "id": "1",
+        "macro_id": "2",
+        "device_id": "333",
+        "value": "12"
+      },
+      {
+        "id": "2",
+        "macro_id": "3",
+        "device_id": "333",
+        "value": "12"
+      },
+      {
+        "id": "3",
+        "macro_id": "4",
+        "device_id": "333",
+        "value": "12"
+      },
+      {
+        "id": "4",
+        "macro_id": "5",
+        "device_id": "333",
+        "value": "12"
+      },
+      {
+        "id": "5",
+        "macro_id": "5",
+        "device_id": "334",
+        "value": "close"
+      },
+      {
+        "id": "6",
+        "macro_id": "5",
+        "device_id": "335",
+        "value": "off"
+      }
+    ],
+    "device": [
+      {
+        "id": "331",
+        "room_id": "121",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "open"
+      },
+      {
+        "id": "332",
+        "room_id": "121",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "333",
+        "room_id": "121",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "10"
+      },
+      {
+        "id": "334",
+        "room_id": "122",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "335",
+        "room_id": "122",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "336",
+        "room_id": "122",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "337",
+        "room_id": "123",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "338",
+        "room_id": "123",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "339",
+        "room_id": "123",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "340",
+        "room_id": "123",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "341",
+        "room_id": "123",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "342",
+        "room_id": "124",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "343",
+        "room_id": "124",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "344",
+        "room_id": "124",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "345",
+        "room_id": "124",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "346",
+        "room_id": "125",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "347",
+        "room_id": "125",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "348",
+        "room_id": "125",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "349",
+        "room_id": "126",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "350",
+        "room_id": "126",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "351",
+        "room_id": "126",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "352",
+        "room_id": "127",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "353",
+        "room_id": "127",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "354",
+        "room_id": "127",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "355",
+        "room_id": "127",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "356",
+        "room_id": "127",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "357",
+        "room_id": "128",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "358",
+        "room_id": "128",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "359",
+        "room_id": "128",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "360",
+        "room_id": "128",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "361",
+        "room_id": "129",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "362",
+        "room_id": "129",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "363",
+        "room_id": "129",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "364",
+        "room_id": "130",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "365",
+        "room_id": "130",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "366",
+        "room_id": "130",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "367",
+        "room_id": "131",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "368",
+        "room_id": "131",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "369",
+        "room_id": "131",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "370",
+        "room_id": "131",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "371",
+        "room_id": "131",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "372",
+        "room_id": "132",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "373",
+        "room_id": "132",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "374",
+        "room_id": "132",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "375",
+        "room_id": "132",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "376",
+        "room_id": "133",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "377",
+        "room_id": "133",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "378",
+        "room_id": "133",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "379",
+        "room_id": "134",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "380",
+        "room_id": "134",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "381",
+        "room_id": "134",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "382",
+        "room_id": "135",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "383",
+        "room_id": "135",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "384",
+        "room_id": "135",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "385",
+        "room_id": "135",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "386",
+        "room_id": "135",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "387",
+        "room_id": "136",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "388",
+        "room_id": "136",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "389",
+        "room_id": "136",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "390",
+        "room_id": "136",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "391",
+        "room_id": "137",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "392",
+        "room_id": "137",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "393",
+        "room_id": "137",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "394",
+        "room_id": "138",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "395",
+        "room_id": "138",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "396",
+        "room_id": "138",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "397",
+        "room_id": "139",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "398",
+        "room_id": "139",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "399",
+        "room_id": "139",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "400",
+        "room_id": "139",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "401",
+        "room_id": "139",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "402",
+        "room_id": "140",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "403",
+        "room_id": "140",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "404",
+        "room_id": "140",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "405",
+        "room_id": "140",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "406",
+        "room_id": "141",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "407",
+        "room_id": "141",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "408",
+        "room_id": "141",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "409",
+        "room_id": "142",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "410",
+        "room_id": "142",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "411",
+        "room_id": "142",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "412",
+        "room_id": "143",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "413",
+        "room_id": "143",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "414",
+        "room_id": "143",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "415",
+        "room_id": "143",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "416",
+        "room_id": "143",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "417",
+        "room_id": "144",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "418",
+        "room_id": "144",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "419",
+        "room_id": "144",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "420",
+        "room_id": "144",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "421",
+        "room_id": "145",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "422",
+        "room_id": "145",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "423",
+        "room_id": "145",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "424",
+        "room_id": "146",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "425",
+        "room_id": "146",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "426",
+        "room_id": "146",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "427",
+        "room_id": "147",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "428",
+        "room_id": "147",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "429",
+        "room_id": "147",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "430",
+        "room_id": "147",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "431",
+        "room_id": "147",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "432",
+        "room_id": "148",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "433",
+        "room_id": "148",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "434",
+        "room_id": "148",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "435",
+        "room_id": "148",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "436",
+        "room_id": "149",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "437",
+        "room_id": "149",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "438",
+        "room_id": "149",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "439",
+        "room_id": "150",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "440",
+        "room_id": "150",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "441",
+        "room_id": "150",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "442",
+        "room_id": "151",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "443",
+        "room_id": "151",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "444",
+        "room_id": "151",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "445",
+        "room_id": "151",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "446",
+        "room_id": "151",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "447",
+        "room_id": "152",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "448",
+        "room_id": "152",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "449",
+        "room_id": "152",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "450",
+        "room_id": "152",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "451",
+        "room_id": "153",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "452",
+        "room_id": "153",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "453",
+        "room_id": "153",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "454",
+        "room_id": "154",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "455",
+        "room_id": "154",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "456",
+        "room_id": "154",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "457",
+        "room_id": "155",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "458",
+        "room_id": "155",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "459",
+        "room_id": "155",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "460",
+        "room_id": "155",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "461",
+        "room_id": "155",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "462",
+        "room_id": "156",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "463",
+        "room_id": "156",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "464",
+        "room_id": "156",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "465",
+        "room_id": "156",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "466",
+        "room_id": "157",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "467",
+        "room_id": "157",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "468",
+        "room_id": "157",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "469",
+        "room_id": "158",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "470",
+        "room_id": "158",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "471",
+        "room_id": "158",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "472",
+        "room_id": "159",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "473",
+        "room_id": "159",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "474",
+        "room_id": "159",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "475",
+        "room_id": "159",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "476",
+        "room_id": "159",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "477",
+        "room_id": "160",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "478",
+        "room_id": "160",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "479",
+        "room_id": "160",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "480",
+        "room_id": "160",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "481",
+        "room_id": "161",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "482",
+        "room_id": "161",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "483",
+        "room_id": "161",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "484",
+        "room_id": "162",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "485",
+        "room_id": "162",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "486",
+        "room_id": "162",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "487",
+        "room_id": "163",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "488",
+        "room_id": "163",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "489",
+        "room_id": "163",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "490",
+        "room_id": "163",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "491",
+        "room_id": "163",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "492",
+        "room_id": "164",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "493",
+        "room_id": "164",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "494",
+        "room_id": "164",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "495",
+        "room_id": "164",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "496",
+        "room_id": "165",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "497",
+        "room_id": "165",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "498",
+        "room_id": "165",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "499",
+        "room_id": "166",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "500",
+        "room_id": "166",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "501",
+        "room_id": "166",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "502",
+        "room_id": "167",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "503",
+        "room_id": "167",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "504",
+        "room_id": "167",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "505",
+        "room_id": "167",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "506",
+        "room_id": "167",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "507",
+        "room_id": "168",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "508",
+        "room_id": "168",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "509",
+        "room_id": "168",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "510",
+        "room_id": "168",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "511",
+        "room_id": "169",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "512",
+        "room_id": "169",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "513",
+        "room_id": "169",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "514",
+        "room_id": "170",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "515",
+        "room_id": "170",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "516",
+        "room_id": "170",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "517",
+        "room_id": "171",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "518",
+        "room_id": "171",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "519",
+        "room_id": "171",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "520",
+        "room_id": "171",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "521",
+        "room_id": "171",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "522",
+        "room_id": "172",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "523",
+        "room_id": "172",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "524",
+        "room_id": "172",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "525",
+        "room_id": "172",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "526",
+        "room_id": "173",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "527",
+        "room_id": "173",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "528",
+        "room_id": "173",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "529",
+        "room_id": "174",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "530",
+        "room_id": "174",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "531",
+        "room_id": "174",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "532",
+        "room_id": "175",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "533",
+        "room_id": "175",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "534",
+        "room_id": "175",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "535",
+        "room_id": "175",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "536",
+        "room_id": "175",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "537",
+        "room_id": "176",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "538",
+        "room_id": "176",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "539",
+        "room_id": "176",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "540",
+        "room_id": "176",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      },
+      {
+        "id": "541",
+        "room_id": "177",
+        "type_id": "1",
+        "name": "Входная дверь",
+        "value": "close"
+      },
+      {
+        "id": "542",
+        "room_id": "177",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "543",
+        "room_id": "177",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "20"
+      },
+      {
+        "id": "544",
+        "room_id": "178",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "545",
+        "room_id": "178",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "on"
+      },
+      {
+        "id": "546",
+        "room_id": "178",
+        "type_id": "5",
+        "name": "Температура",
+        "value": "22"
+      },
+      {
+        "id": "547",
+        "room_id": "179",
+        "type_id": "4",
+        "name": "Левое окно",
+        "value": "open"
+      },
+      {
+        "id": "548",
+        "room_id": "179",
+        "type_id": "4",
+        "name": "Правое окно",
+        "value": "open"
+      },
+      {
+        "id": "549",
+        "room_id": "179",
+        "type_id": "2",
+        "name": "Левый свет",
+        "value": "off"
+      },
+      {
+        "id": "550",
+        "room_id": "179",
+        "type_id": "2",
+        "name": "Правый свет",
+        "value": "off"
+      },
+      {
+        "id": "551",
+        "room_id": "179",
+        "type_id": "5",
+        "name": "Температура на улице",
+        "value": "17"
+      },
+      {
+        "id": "552",
+        "room_id": "180",
+        "type_id": "4",
+        "name": "Окно",
+        "value": "close"
+      },
+      {
+        "id": "553",
+        "room_id": "180",
+        "type_id": "3",
+        "name": "Светильник",
+        "value": "on"
+      },
+      {
+        "id": "554",
+        "room_id": "180",
+        "type_id": "2",
+        "name": "Свет",
+        "value": "off"
+      },
+      {
+        "id": "555",
+        "room_id": "180",
+        "type_id": "6",
+        "name": "Термостат",
+        "value": "20"
+      }
+    ],
+    "device_type": [
+      {
+        "id": "1",
+        "name": "Электронный замок"
+      },
+      {
+        "id": "2",
+        "name": "Люстра"
+      },
+      {
+        "id": "3",
+        "name": "Светильник"
+      },
+      {
+        "id": "4",
+        "name": "Электрокарниз"
+      },
+      {
+        "id": "5",
+        "name": "Датчик температуры"
+      },
+      {
+        "id": "6",
+        "name": "Термостат"
+      }
+    ],
+    "macro": [
+      {
+        "id": "2",
+        "name": "macro 1",
+        "user_id": "41"
+      },
+      {
+        "id": "3",
+        "name": "macro 1",
+        "user_id": "41"
+      },
+      {
+        "id": "4",
+        "name": "macro 1",
+        "user_id": "41"
+      },
+      {
+        "id": "5",
+        "name": "macro 1",
+        "user_id": "41"
+      }
+    ],
+    "room": [
+      {
+        "id": "121",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "41"
+      },
+      {
+        "id": "122",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "41"
+      },
+      {
+        "id": "123",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "41"
+      },
+      {
+        "id": "124",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "41"
+      },
+      {
+        "id": "125",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "42"
+      },
+      {
+        "id": "126",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "42"
+      },
+      {
+        "id": "127",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "42"
+      },
+      {
+        "id": "128",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "42"
+      },
+      {
+        "id": "129",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "43"
+      },
+      {
+        "id": "130",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "43"
+      },
+      {
+        "id": "131",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "43"
+      },
+      {
+        "id": "132",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "43"
+      },
+      {
+        "id": "133",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "44"
+      },
+      {
+        "id": "134",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "44"
+      },
+      {
+        "id": "135",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "44"
+      },
+      {
+        "id": "136",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "44"
+      },
+      {
+        "id": "137",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "45"
+      },
+      {
+        "id": "138",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "45"
+      },
+      {
+        "id": "139",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "45"
+      },
+      {
+        "id": "140",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "45"
+      },
+      {
+        "id": "141",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "46"
+      },
+      {
+        "id": "142",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "46"
+      },
+      {
+        "id": "143",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "46"
+      },
+      {
+        "id": "144",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "46"
+      },
+      {
+        "id": "145",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "47"
+      },
+      {
+        "id": "146",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "47"
+      },
+      {
+        "id": "147",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "47"
+      },
+      {
+        "id": "148",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "47"
+      },
+      {
+        "id": "149",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "48"
+      },
+      {
+        "id": "150",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "48"
+      },
+      {
+        "id": "151",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "48"
+      },
+      {
+        "id": "152",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "48"
+      },
+      {
+        "id": "153",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "49"
+      },
+      {
+        "id": "154",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "49"
+      },
+      {
+        "id": "155",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "49"
+      },
+      {
+        "id": "156",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "49"
+      },
+      {
+        "id": "157",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "50"
+      },
+      {
+        "id": "158",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "50"
+      },
+      {
+        "id": "159",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "50"
+      },
+      {
+        "id": "160",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "50"
+      },
+      {
+        "id": "161",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "51"
+      },
+      {
+        "id": "162",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "51"
+      },
+      {
+        "id": "163",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "51"
+      },
+      {
+        "id": "164",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "51"
+      },
+      {
+        "id": "165",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "52"
+      },
+      {
+        "id": "166",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "52"
+      },
+      {
+        "id": "167",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "52"
+      },
+      {
+        "id": "168",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "52"
+      },
+      {
+        "id": "169",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "53"
+      },
+      {
+        "id": "170",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "53"
+      },
+      {
+        "id": "171",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "53"
+      },
+      {
+        "id": "172",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "53"
+      },
+      {
+        "id": "173",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "54"
+      },
+      {
+        "id": "174",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "54"
+      },
+      {
+        "id": "175",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "54"
+      },
+      {
+        "id": "176",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "54"
+      },
+      {
+        "id": "177",
+        "name": "Коридор",
+        "photo": "room_Коридор.png",
+        "user_id": "55"
+      },
+      {
+        "id": "178",
+        "name": "Кухня",
+        "photo": "room_Кухня.png",
+        "user_id": "55"
+      },
+      {
+        "id": "179",
+        "name": "Зал",
+        "photo": "room_Зал.png",
+        "user_id": "55"
+      },
+      {
+        "id": "180",
+        "name": "Спальня",
+        "photo": "room_Спальня.png",
+        "user_id": "55"
+      }
+    ],
+    "user": [
+      {
+        "id": "41",
+        "login": "t",
+        "password": "t",
+        "token": "Kn-l3xYl3tvzofYek55Xl9hoonTMGCIl"
+      },
+      {
+        "id": "42",
+        "login": "user15335551863",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "43",
+        "login": "user15335551863",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "44",
+        "login": "user15335551861",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "45",
+        "login": "user15335551860",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "46",
+        "login": "user15335551864",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "47",
+        "login": "user15335551868",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "48",
+        "login": "user15335551866",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "49",
+        "login": "user15335551863",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "50",
+        "login": "user15335551864",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "51",
+        "login": "user15335551860",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "52",
+        "login": "user15335551860",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "53",
+        "login": "user15335551865",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "54",
+        "login": "user15335551865",
+        "password": "pass",
+        "token": null
+      },
+      {
+        "id": "55",
+        "login": "user15335551863",
+        "password": "pass",
+        "token": null
+      }
+    ]
+  }
