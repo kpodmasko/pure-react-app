@@ -35,10 +35,11 @@ class HouseDevice extends React.Component {
 
     render() {
         const {checked} = this.state;
-        const {type_id, value, innerRef, onChange} = this.props;
+        const {type_id, innerRef, name} = this.props;
         const [on, off] = this.getStatesToToggle(type_id);
 
         return <React.Fragment>
+            <span>Устройство {name} : </span>
             <input type="checkbox" ref={this.checkboxRef} checked={checked} onChange={this.toggleCheckbox.bind(this)}/>
             <input style={{display: 'none'}} value={checked ? on : off} ref={innerRef} onChange={() => {}}/>
         </React.Fragment>
