@@ -6,3 +6,7 @@
 .Header__item {
     flex-grow: 1;
 }
+
+.Header__item4 {
+    flex-grow: 4;
+}

@@ -14,7 +14,7 @@ const makeRequestAndGetPromise = ({type, url, data}) => {
         }
 
         request.onerror = function() { 
-            reject(Error("Network Error")); 
+            reject(Error("Ошибка сети")); 
         }; 
 
         request.send(data);

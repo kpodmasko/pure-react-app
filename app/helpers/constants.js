@@ -30,9 +30,9 @@ const PAGES_CONFIG = [{path: '#/', component: Home, menu: {show: true, title: '�
     {path: '#/rooms', component: Rooms, menu: {show: true, title: 'КОМНАТЫ'}},
     {component: NotFound}];
 
-const YOU_ARE_NOT_LOGGED_IN = 'You are not logged in';
+const YOU_ARE_NOT_LOGGED_IN = 'Вы не вошли в аккаунт';
 
-const YOU_CAN_NOT_LOG_AGAIN = 'You can not log again';
+const YOU_CAN_NOT_LOG_AGAIN = 'Вы не можете войти еще раз';
 
 const NOT_FOUND_PAGE_404 = '404 Not Found';
 

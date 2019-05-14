@@ -10,6 +10,7 @@ class Menu extends React.Component {
             {PAGES_CONFIG
                 .filter(page => page.menu && page.menu.show)
                 .map((page,i) => <Link 
+                    key={`MenuItemLink${i}`}
                     classNames={['Menu__link']}
                     href={`${page.path}`} 
                     onClick={() => switchPage({

@@ -1,13 +1,13 @@
 class Header extends React.Component {
     render() {
-        const {switchPage, userToken} = this.props;
+        const {switchPage, user, logOutUser} = this.props;
 
         return <div className={'Header__container'}>
-            <HeaderItem>
+            <HeaderItem classNames={['Header__item4']}>
                 <Menu switchPage={switchPage}/>
             </HeaderItem>
             <HeaderItem>
-                <Auth userToken={userToken} switchPage={switchPage}/>
+                <Auth user={user} switchPage={switchPage} logOutUser={logOutUser}/>
             </HeaderItem>
         </div>
     }

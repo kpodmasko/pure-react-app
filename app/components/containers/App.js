@@ -1,12 +1,19 @@
 class App extends React.Component { 
     state = {
-        userToken: null    
+        user: null    
     };
 
-    authorizeUser = userToken => {
+    authorizeUser = user => {
         this.setState({
             ...this.state,
-            userToken
+            user
+        })
+    }
+
+    logOutUser = () => {
+        this.setState({
+            ...this.state,
+            user: null
         })
     }
 
@@ -31,9 +38,10 @@ class App extends React.Component {
     }
 
     render() {
-        const {userToken} = this.state;
+        const {user} = this.state;
         const pageProps = {
-            userToken
+            user,
+            logOutUser: this.logOutUser.bind(this)
         }
 
         return <Router pageProps={pageProps}>
