@@ -1,0 +1,8 @@
+.Header__container {
+    display: flex;
+    height: 100px;
+}
+
+.Header__item {
+    flex-grow: 1;
+}

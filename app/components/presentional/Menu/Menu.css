@@ -1,0 +1,18 @@
+.Menu__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;   
+    list-style: none;
+    background-color: azure;
+}
+
+.Menu__item {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.Menu__link {
+    text-decoration: none;
+    color: black;
+}

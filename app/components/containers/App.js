@@ -10,6 +10,26 @@ class App extends React.Component {
         })
     }
 
+    mapCustomPropsNamesToRouteProps = (customPropsNames = []) => {
+        const self = this;
+        const routeProps = {};
+
+        customPropsNames.forEach(customPropName => {
+            if (!self[customPropName]) {
+                return;
+            }
+
+            if (typeof self[customPropName] === 'function') {
+                routeProps[customPropName] = self[customPropName].bind(self);
+                return;
+            }
+
+            routeProps[customPropName] = self[customPropName];
+        });
+
+        return routeProps;
+    }
+
     render() {
         const {userToken} = this.state;
         const pageProps = {
@@ -17,13 +37,14 @@ class App extends React.Component {
         }
 
         return <Router pageProps={pageProps}>
-            <Home path='#/'/>
-            <Login path='#/login' authorizeUser={this.authorizeUser.bind(this)}/>
-            <Devices path='#/devices'/>
-            <Macroses path='#/macroses'/>
-            <Room path='#/room/'/>
-            <RoomsList path='#/roomsList'/>
-            <ErrorViewer message={NOT_FOUND_PAGE_404}/>
+            {PAGES_CONFIG.map(({component, path, customPropsNames}, i) => {
+                const Route = component;
+
+                return <Route 
+                    key={`${component}${path}${i}`} 
+                    path={path} 
+                    {...this.mapCustomPropsNamesToRouteProps(customPropsNames)}/>
+            })}
         </Router>
     }
 }

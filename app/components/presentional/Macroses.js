@@ -1,7 +1,7 @@
 class Macroses extends React.Component {
     render() {
-        return <div>
+        return <Page {...this.props}>
             Macroses
-        </div>
+        </Page>
     }
 }
