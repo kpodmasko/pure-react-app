@@ -1,4 +1,4 @@
-class Login extends React.Component {
+class LoginPage extends React.Component {
     userLogin = React.createRef();
     userPassword = React.createRef();
     state = {

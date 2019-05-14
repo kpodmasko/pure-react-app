@@ -18,17 +18,16 @@ const DEFAULT_CLASSNAMES_STUB_FOR_LIST_TEMPLATE = {
     listItem: []
 }
 
-const CLIENT_BASE = 'http://localhost:8888/pure-react-app/';
+const CLIENT_BASE = 'http://127.0.0.1:8888/pure-react-app/';
 
-const SERVER_BASE = 'http://localhost:3000';
+const SERVER_BASE = 'http://127.0.0.1:3000';
 
-const PAGES_CONFIG = [{path: '#/', component: Home, menu: {show: true, title: 'ГЛАВНАЯ'}},
-    {path: '#/login', component: Login, customPropsNames: ['authorizeUser']},
-    {path: '#/devices', component: Devices, menu: {show: true, title: 'УСТРОЙСТВА'}},
-    {path: '#/macroses', component: Macroses, menu: {show: true, title: 'МАКРОСЫ'}},
-    {path: '#/room', component: Room, title: 'КОМНАТА'},
-    {path: '#/rooms', component: Rooms, menu: {show: true, title: 'КОМНАТЫ'}},
-    {component: NotFound}];
+const PAGES_CONFIG = [{path: '#/', component: HomePage, menu: {show: true, title: 'ГЛАВНАЯ'}},
+    {path: '#/login', component: LoginPage, customPropsNames: ['authorizeUser']},
+    {path: '#/devices', component: HouseControllersPage, menu: {show: true, title: 'УСТРОЙСТВА И ДАТЧИКИ'}},
+    {path: '#/macroses', component: MacrosesPage, menu: {show: true, title: 'МАКРОСЫ'}},
+    {path: '#/room', component: RoomPage, title: 'КОМНАТА'},
+    {component: NotFoundPage}];
 
 const YOU_ARE_NOT_LOGGED_IN = 'Вы не вошли в аккаунт';
 
