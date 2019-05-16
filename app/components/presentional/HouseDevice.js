@@ -25,7 +25,11 @@ class HouseDevice extends React.Component {
 
     toggleCheckbox() {
         const {checked} = this.state;
-        const {onChange} = this.props;
+        const {onChange, readOnly} = this.props;
+
+        if (readOnly) {
+            return;
+        }
         
         this.setState({
             ...this.state,

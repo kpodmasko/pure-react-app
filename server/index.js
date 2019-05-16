@@ -160,5 +160,73 @@ app.get('/images/:img', function (request, response) {
     response.sendFile(`${__dirname}/images/${request.params.img}`);
 });
 
+app.get('/macros', (request, response) => {
+    let token;
+
+    if (request.headers['authorization'].startsWith('Bearer ')) {
+        token = request.headers['authorization'].slice(7, request.headers['authorization'].length);
+    }
+
+    if (token) {
+        const user = db.get('user')
+            .find({token})
+            .value();
+
+        if (user) {
+            const macroses = db.get('macro')
+            .value()
+            .filter(macros => macros.user_id === user.id);
+            response.json({
+                macroses: macroses.map(macros => ({
+                    ...macros,
+                    devices: (() => {
+                        const actions = db.get('action')
+                                .value()
+                                .filter(action => action.macro_id === macros.id);
+
+                        return actions.map((action) => ({
+                            ...action,
+                            ...db.get('device')
+                            .value()
+                            .find(device => device.id === action.device_id)
+                        }))
+                    })()
+                }))
+            })
+        } else {
+            response.send('Unauthorized', 401);
+        }
+    } else {
+        response.send('Unauthorized', 401);
+    }
+    
+});
+
+app.delete('/macros/:id', function(request, response) {
+    let token;
+
+    if (request.headers['authorization'].startsWith('Bearer ')) {
+        token = request.headers['authorization'].slice(7, request.headers['authorization'].length);
+    }
+
+    if (token) {
+        const user = db.get('user')
+            .find({token})
+            .value();
+
+        if (user) {
+            db.get('macro')
+            .remove({ id: request.params.id })
+            .write()
+
+            response.send(true);
+        } else {
+            response.send('Unauthorized', 401);
+        }
+    } else {
+        response.send('Unauthorized', 401);
+    }
+})
+
 server.listen(port, () => console.log(`Listening on port ${port}`));
 

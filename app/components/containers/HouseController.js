@@ -40,6 +40,12 @@ class HouseController extends React.Component {
     }
 
     handleChange = () => {
+        const {readOnly} = this.props;
+
+        if (readOnly) {
+            return;
+        }
+
         this.setState({
             ...this.state,
             value: this.houseControllerRef.current.value
@@ -47,21 +53,22 @@ class HouseController extends React.Component {
     }
 
     render() {
-        const {config} = this.props;
+        const {config, readOnly} = this.props;
         const {errorMessage, value} = this.state;
         const self = this;
         const CurrentController = this.typesMap[config.type_id];
         const currentControllerProps = {
             ...config, 
             value,
-            onChange: this.handleChange.bind(this)
+            onChange: this.handleChange.bind(this),
+            readOnly
         };
 
         return errorMessage ? 
             <ErrorViewer message={errorMessage}/> : 
             <form onSubmit={this.handleSubmit.bind(this)}>
                 <CurrentController {...currentControllerProps} innerRef={self.houseControllerRef} />
-                <input type='submit' value='Отправить изменение'/>            
+                {!readOnly && <input type='submit' value='Отправить изменение'/>}            
             </form>
     }
 }
