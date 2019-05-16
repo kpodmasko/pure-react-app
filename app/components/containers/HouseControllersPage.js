@@ -62,9 +62,9 @@ class HouseControllersPage extends React.Component {
     }
 
     render() {
-        const {houseControllers} = this.state;
+        const {houseControllers, errorMessage} = this.state;
 
-        return <Page {...this.props}>
+        return <Page {...this.props} errorMessage={errorMessage}>
             {houseControllers.length && <HouseControllersList>
                 {houseControllers}
             </HouseControllersList>}

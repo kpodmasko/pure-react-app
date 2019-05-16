@@ -35,7 +35,7 @@ class HomePage extends React.Component {
 
     render() {
         const {errorMessage, rooms} = this.state;
-        const {switchPage, user} = this.props;
+        const {switchPage} = this.props;
 
         return <Page {...this.props} errorMessage={errorMessage}> 
             <RoomsList switchPage={switchPage}>

@@ -1,6 +1,6 @@
 class App extends React.Component { 
     state = {
-        user: null    
+        user: null
     };
 
     authorizeUser = user => {

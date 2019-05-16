@@ -1,6 +1,6 @@
 class HouseControllersList extends React.Component {
     render() {
-        const {children, user} = this.props;
+        const {children, user, readOnly} = this.props;
 
         return <React.Fragment> 
             <hr/>
@@ -8,7 +8,8 @@ class HouseControllersList extends React.Component {
 
             {!children.length ? '' : <React.Fragment>
                 <List keyPrefix={'HouseControllers'}>
-                    {children.map((controller, i) => <HouseController 
+                    {children.map((controller, i) => <HouseController
+                        readOnly={readOnly} 
                         key={`HouseControllerTemplate${controller.id}`} 
                         user={user} 
                         config={controller}/>)}
